@@ -97,7 +97,7 @@ const Notices = () => {
                 </div>
                 <span className="text-sm text-gray-500">{formatDate(notice.date)}</span>
               </div>
-              
+
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{notice.title}</h3>
               <p className="text-gray-600 leading-relaxed">{notice.content}</p>
             </motion.div>
@@ -115,7 +115,7 @@ const Notices = () => {
           <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Stay Connected</h3>
             <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
-              Don't miss important updates! Follow our notice board regularly or subscribe to our newsletter 
+              Don't miss important updates! Follow our notice board regularly or subscribe to our newsletter
               for instant notifications about hostel announcements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

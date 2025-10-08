@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sc-boys-hostel
+  labels:
+    name: sc-boys-hostel
+    app: hostel-website
